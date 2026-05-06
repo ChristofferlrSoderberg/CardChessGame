@@ -415,10 +415,7 @@
     "description": "Pieces may move a maximum of 1 square per turn",
     "flavor": "Baby steps.",
     "weight": 6,
-    "duration": [
-      3,
-      7
-    ],
+    "duration": "3-7",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -435,10 +432,7 @@
     "description": "Pawns can attack left and right",
     "flavor": "They're feeling empowered.",
     "weight": 7,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -455,10 +449,7 @@
     "description": "Kings move like Queens, Queens move like Kings",
     "flavor": "Role reversal.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -475,10 +466,7 @@
     "description": "Kings can move like Queens",
     "flavor": "The King has ascended.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -495,10 +483,7 @@
     "description": "Bishops, Rooks, and Queens MUST move the maximum distance",
     "flavor": "The floor is slippery.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -515,10 +500,7 @@
     "description": "Pieces can wrap around the right and left sides of the board",
     "flavor": "Waka waka waka.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -535,10 +517,7 @@
     "description": "Kings are immune and can move 2 squares at a time",
     "flavor": "Bow before your ruler.",
     "weight": 4,
-    "duration": [
-      3,
-      7
-    ],
+    "duration": "3-7",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -556,10 +535,7 @@
     "description": "Pawns promote on the 6th rank instead of the 8th",
     "flavor": "Fast-tracked for success.",
     "weight": 7,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -576,10 +552,7 @@
     "description": "Kings can now move 2 spots in every direction",
     "flavor": "New knees, who dis?",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -596,10 +569,7 @@
     "description": "Pawns can push any piece forward by moving into it. Chain reactions propagate. Pieces pushed off the board are removed.",
     "flavor": "They've been hitting the gym.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -616,10 +586,7 @@
     "description": "Any capture also kills the capturing Piece",
     "flavor": "If I go down, you come with me.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -636,10 +603,7 @@
     "description": "When any Piece dies, 50% chance it is revived in a random empty square",
     "flavor": "Not today, Death.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -656,10 +620,7 @@
     "description": "When a Piece dies, 25% chance that ALL adjacent Pieces die",
     "flavor": "Taking everyone down.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -676,10 +637,7 @@
     "description": "No Pieces can die",
     "flavor": "Peace on the board.",
     "weight": 4,
-    "duration": [
-      3,
-      5
-    ],
+    "duration": "3-5",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -696,10 +654,7 @@
     "description": "Only Pawns can die",
     "flavor": "The little ones take the fall.",
     "weight": 6,
-    "duration": [
-      2,
-      4
-    ],
+    "duration": "2-4",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -716,10 +671,7 @@
     "description": "If a Knight dies, both your Knights die. Same for Rooks and Bishops",
     "flavor": "Their fates are intertwined.",
     "weight": 4,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -736,10 +688,7 @@
     "description": "Every capture has a 50% chance to also capture a random adjacent enemy Piece",
     "flavor": "Double tap.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -756,10 +705,7 @@
     "description": "Two random Pieces on your team cannot die",
     "flavor": "Drink up.",
     "weight": 5,
-    "duration": [
-      3,
-      6
-    ],
+    "duration": "3-6",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -776,10 +722,7 @@
     "description": "Rock Paper Scissors for a chance to stop any attack",
     "flavor": "En garde!",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -796,10 +739,7 @@
     "description": "Bishops and Knights cannot move",
     "flavor": "They're stuck.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -816,10 +756,7 @@
     "description": "ONLY Pawns can be moved",
     "flavor": "It's their time to shine.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -836,10 +773,7 @@
     "description": "You must make a move that captures an enemy (if possible)",
     "flavor": "Blood for the blood god.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -856,10 +790,7 @@
     "description": "Pieces in files A and H are frozen",
     "flavor": "The edges freeze over.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -877,10 +808,7 @@
     "description": "All moves must move closer to your opponent's side of the board",
     "flavor": "Forward, always forward.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -897,10 +825,7 @@
     "description": "Flip a coin at start of your turn, if it's tails you can only move your King",
     "flavor": "Feeling lucky?",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -918,10 +843,7 @@
     "description": "A random non-King piece dies for each player after every turn",
     "flavor": "The gods demand tribute.",
     "weight": 4,
-    "duration": [
-      3,
-      5
-    ],
+    "duration": "3-5",
     "category": "RULE_CATEGORIES.DEATH",
     "tags": [
       "duration",
@@ -939,10 +861,7 @@
     "description": "Two random non-King Pieces swap places at the end of every turn",
     "flavor": "Reality is unstable.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.BOARD",
     "tags": [
       "duration",
@@ -959,10 +878,7 @@
     "description": "If a Bishop moves next to an enemy Pawn, you convert it to your team",
     "flavor": "Have you heard the good word?",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.BOARD",
     "tags": [
       "duration",
@@ -980,10 +896,7 @@
     "description": "Pick a friendly Piece. If it's alive when this expires, it explodes and kills all adjacent pieces",
     "flavor": "Tick... tick... tick...",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1001,10 +914,7 @@
     "description": "Pick a Piece. It cannot move, but if alive when this expires, spawn a duplicate into an empty adjacent square",
     "flavor": "Cell division in progress.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1022,10 +932,7 @@
     "description": "Select a random empty square. The first Piece to enter that square is promoted",
     "flavor": "X marks the spot.",
     "weight": 7,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1042,10 +949,7 @@
     "description": "Pick 1 file. All Pieces in it are frozen and immune until this expires",
     "flavor": "Ice to meet you.",
     "weight": 6,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -1063,10 +967,7 @@
     "description": "Pick 2 squares. At the end of every turn, those two squares swap",
     "flavor": "Now you're thinking with portals.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1084,10 +985,7 @@
     "description": "Pick 1 file. No Pieces may enter or cross the file. Pieces in it can leave.",
     "flavor": "Danger zone.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -1104,10 +1002,7 @@
     "description": "Any Piece that reaches the back line can promote",
     "flavor": "Money money money.",
     "weight": 7,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.MOVEMENT",
     "tags": [
       "duration",
@@ -1124,10 +1019,7 @@
     "description": "Pick an empty square. If any Piece *can* move to that square, it must",
     "flavor": "You're getting sucked in.",
     "weight": 4,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.RESTRICTION",
     "tags": [
       "duration",
@@ -1144,10 +1036,7 @@
     "description": "When this expires, whichever Player has more Pieces on the 4 corner spots gets a Rook at a random empty square",
     "flavor": "The ritual is complete.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1165,10 +1054,7 @@
     "description": "Mark a random empty square. When this expires, whoever controls that square kills a random enemy piece",
     "flavor": "Thor is watching.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1186,10 +1072,7 @@
     "description": "Pick 2 squares on the board. When this expires, any Pieces on those squares die",
     "flavor": "You were warned.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1207,10 +1090,7 @@
     "description": "When this expires, all Pieces adjacent to a King die",
     "flavor": "The aura is overwhelming.",
     "weight": 4,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
@@ -1228,10 +1108,7 @@
     "description": "All Pieces in file E die when this rule expires",
     "flavor": "Tick tock.",
     "weight": 5,
-    "duration": [
-      3,
-      9
-    ],
+    "duration": "3-9",
     "category": "RULE_CATEGORIES.SPECIAL",
     "tags": [
       "duration",
